@@ -1,2 +1,3 @@
 # Matlab_project
-è per il progetto di calcolo, CALMI TUTTI
+Questo file presenta un elenco dei comandi che abbiamo visto / vedremo a lezione.
+- a
