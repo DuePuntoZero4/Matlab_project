@@ -45,4 +45,7 @@ Le operazioni di base di MatLab sono 6:
 - `v.*w`: salva in ans un array avente la stessa dimensione di v e w con valori il prodotto membro a membro dei precedenti (*se e solo se* sono della stessa lunghezza).
 ## Operazioni su matrici
 - `A(1,3)`: stampa nella Command Window il valore individuato dalla prima riga e terza colonna di A.
-- 
+- `A+B`: somma membro a membro due matrici *se e solo se* sono della stessa grandezza.
+- `A*2`: moltiplica ogni membro della matrice per uno scalare.
+- `A*B`: esegue il prodotto matriciale tra A e B, ovvero l'elemento $ans_{i,j}$ è dato dalla somma dei prodotti tra gli elementi della riga *i* di A e della colonna *j* di B.
+  - **ATTENZIONE**: il prodotto matriciale su MatLab segue la seguente regola: $`A^{(m×k)}*B^{(k×n)}=C^{(m×n)}`$
