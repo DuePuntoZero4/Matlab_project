@@ -10,9 +10,11 @@ Per MatLab, ogni funzione dev'essere salvata su un file diverso (sempre però co
 
 **ATTENZIONE**: il nome della funzione dev'essere lo stesso del nome del file che la contiene (esclusa l'estensione).
 ## Sintassi di una funzione
-`function [out1, out2, ...] = nome_funzione (in1, in2, ...)
-%corpo della funzione
-end`
+```matlab
+function [out1, out2, ...] = nome_funzione (in1, in2, ...)
+  %corpo della funzione
+end
+```
 Analizziamo la sintassi:
 - La parola chiave `function` (riga 1) indica a MatLab che il file contiene una funzione piùttosto che uno script.
 - Gli argomenti di `function` indicano i valori restituiti dalla funzione all'istanza chiamante.
