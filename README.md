@@ -1,6 +1,7 @@
 # MatLab_project
 ## Introduzione a MatLab
 Il nome *MatLab* è un abbreviazione per la dicitura "MATrix LABoratory"; il software è pensato per calcoli matriciali e vettoriali di elevata complessità, anche con numeri definiti in floating point a doppia precisione.
+
 Ogni cosa in MatLab è rappresentata come una matrice, anche una variabile singola, ed ogni valore occupa 8 byte.
 ## Aree di lavoro
 La finestra di lavoro offerta da MatLab è suddivisa in 4 aree principali:
@@ -13,7 +14,9 @@ La finestra di lavoro offerta da MatLab è suddivisa in 4 aree principali:
 - Un **vettore** dovrebbe avere come nome una singola lettera minuscola (se possibile), oppure utilizzare un nome più lungo ma esplicativo; possiamo distinguere se si tratta di riga o colonna utilizzando `_r` e `_c` come suffissi.
 - Una **matrice** dovrebbe avere come nome una singola lettera maiuscola.
 ## Oggetti di Lavoro
-**ATTENZIONE**: come detto in precedenza, tutti gli oggetti di lavoro utilizzati da MatLab sono interpretati come matrici *m × n*, ed ogni valore che compone la matrice è definito su 8 byte. Si può capire facilmente che l'obiettivo del linguaggio sia la precisione, a discapito dell'ottimizzazione.
+**ATTENZIONE**: come detto in precedenza, tutti gli oggetti di lavoro utilizzati da MatLab sono interpretati come matrici *m × n*, ed ogni valore che compone la matrice è definito su 8 byte. 
+
+Si può capire facilmente che l'obiettivo del linguaggio sia la precisione, a discapito dell'ottimizzazione.
 - **Variabili**: una variabile si definisce assegnando un valore reale ad un nome scelto per la variabile. Così facendo, la variabile appena creata verrà salvata automaticamente nel workspace.
   - `a=15`
 - **Vettori**: un vettore riga è dichiarato attraverso le parentesi quadrate, che racchiudono i valori che lo compongono separati da uno spazio (o una virgola). È possibile definire un vettore attraverso la dicitura *inizio - passo - fine*, o anche *inizio - fine* se il passo è unitario.
