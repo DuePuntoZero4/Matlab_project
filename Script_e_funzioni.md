@@ -21,3 +21,11 @@ Analizziamo la sintassi:
 - `nome_funzione` indica il nome della funzione del file, che ricordiamo deve corrispondere al nome del file stesso.
 - Gli argomenti di `nome_funzione` indicano i valori ricevuti dall'istanza chiamante.
 - `end` indica la chiusura della funzione.
+## Funzioni anonime (chiamate inline in precedenza)
+È possibile definire funzioni "rapide" senza dover creare un nuovo file per ognuna; queste funzioni prendono il nome di anonime proprio perché non hanno un nome proprio, ma vengono create assegnandole ad una variabile.
+```matlab
+f = @(arg) espressione
+```
+- `f` sarà il nome della "funzione" (ovvero della variabile a cui l'assegneremo).
+- `arg` è lo spazio dedicato agli argomenti della funzione.
+- `espressione` è l'istruzione che la nostra funzione eseguirà; le funzioni anonime possono contenere un'istruzione sola.
