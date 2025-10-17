@@ -27,7 +27,8 @@ Questo file presenta un elenco dei comandi che abbiamo visto / vedremo a lezione
 - `load <nome_file.mat>`: carica nel workspace le variabili contenute nel file.
 # Operazioni ed operatori
 In generale, MatLab è una calcolatrice scientifica sotto steroidi; di conseguenza, valgono le normali regole di calcolo usati da altri linguaggi di programmazione.
-Un'operazione in matlab può essere definita con `;` finale o senza. Nel primo caso, il risultato non verrà mostrato nella Command Window, mentre nel secondo comparirà associato alla variabile predefinita *ans*.
+
+Un'operazione in matlab può essere definita con `;` finale o senza. Nel primo caso, il risultato non verrà mostrato nella Command Window, mentre nel secondo comparirà esclusivamente nel workspace associato alla variabile predefinita *ans*.
 Le operazioni di base di MatLab sono 6:
 - addizione `+`
 - sottrazione `-`
