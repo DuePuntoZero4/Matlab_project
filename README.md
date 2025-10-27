@@ -3,6 +3,11 @@
 Il nome *MatLab* è un abbreviazione per la dicitura "MATrix LABoratory"; il software è pensato per calcoli matriciali e vettoriali di elevata complessità, anche con numeri definiti in floating point a doppia precisione.
 
 Ogni cosa in MatLab è rappresentata come una matrice, anche una variabile singola, ed ogni valore occupa 8 byte.
+
+È possibile conoscere in modo accurato limiti e precisione dei numeri reali attraverso i seguenti comandi:
+- `eps`: restituisce la più piccola differenza distinguibile tra due numeri in doppia precisione.
+- `realmin`: restituisce il modulo (valore assoluto) del più piccolo numero rappresentabile.
+- `realmax`: restituisce il più grande numero finito rappresentabile.
 ## Aree di lavoro
 La finestra di lavoro offerta da MatLab è suddivisa in 4 aree principali:
 - **Command Window**: assomiglia alla finestra di un terminale, dove potremo scrivere comandi diretti.
@@ -25,3 +30,9 @@ Per creare un vettore colonna, infine, dovremmo utilizzare i punti e virgola al 
   - `column=[1; 2; 3]`
 - **Matrici**: le matrici possono essere dichiarati come un vettore colonna di vettori riga oppure cadenzando le colonne con i punto e virgola e le righe con spazio (o virgola).
   -  `matrix=[[1 2 3]; [4 5 6]; [7 8 9]]` oppure `matrix=[1 2 3; 4 5 6; 7 8 9]`
+## Errori di cancellazione, underflow e overflow
+Gli errori di cancellazione numerica avvengono all'applicazione di somme algebriche tra due numeri appartenenti ad ordini di grandezza molto diversi.
+
+Gli errori di **overflow** sono abbastanza rari e semplici da individuare, e prevedono che un numero superi i bit messi a disposizione per la sua memorizzazione.
+
+Gli errori di **underflow** sono ancora più rari, ma è più difficile trovarli e trattarli, nonostante non influenzino in modo estremo i calcoli; questi errori coinvolgono variazioni su un numero minori del più piccolo valore memorizzabile dal programma.
