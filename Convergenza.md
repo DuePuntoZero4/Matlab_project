@@ -30,4 +30,10 @@ Alla funzione limit passiamo la funzione $`f`$, la variabile rispetto alla quale
 ## Serie
 In matematica, una serie è la somma dei termini di una successione. Siccome possiamo dover rappresentare sia serie finite che infinite.
 
-Anche le serie numeriche verranno trattate attraverso le successioni.
+Anche le serie numeriche verranno trattate attraverso le successioni, nonostante esistano funzioni fatte apposta per il loro calcolo; per completezza, eccole:
+- **Serie finite** (`sum(...)`): dato un vettore, la funzione sum fa la somma di tutti i suoi membri; funziona perché le successioni sono definite sotto forma di vettori.
+- **Serie simboliche** (`symsum(exp, var, a, b)`): le serie simboliche possono essere finite o infinite, e si basano sui seguenti termini:
+  - `exp`: indica l'espressione che definisce la serie.
+  - `var`: è la variabile che subisce l'incremento.
+  - `a`: è il valore iniziale di *var*.
+  - `b`: è il valore finale di *var*.
